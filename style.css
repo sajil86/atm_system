@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+}
+body h2:nth-child(1) {
+    color: rgba(16, 51, 56, 0.8);
+}
+form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+input,
+select {
+  padding: 8px;
+  margin: 10px 0;
+  width: 200px;
+}
+input[type="submit"] {
+  background: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.message {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.success {
+  background: #dff0d8;
+  color: #3c763d;
+}
+.error {
+  background: #f2dede;
+  color: #a94442;
+}
